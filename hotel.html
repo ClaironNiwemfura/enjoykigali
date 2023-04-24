@@ -20,7 +20,7 @@
         <h3>Hotels</h3>
     </div>
 
-    <div class="parent">
+    <div class="parent"id="parent">
         <div class="rectangle">
           <img src="https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg" alt="img">
           <h4>Heaven</h4>
@@ -28,91 +28,12 @@
               <img src="./images/loca.png" alt="icon">
               <address class="kiy">7 KN 29 St, Kigali(Kiyovu)</address>
            </div>
-       </div>
+        </div>
+    </div>
     
-     
-         <div class="rectangle">
-           <img src="https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg" alt="img">
-           <h4>Heaven</h4>
-            <div class="icon">
-               <img src="./images/loca.png" alt="icon">
-               <address class="kiy">7 KN 29 St, Kigali(Kiyovu)</address>
-            </div>
-        </div>
-      
-      
-         <div class="rectangle">
-           <img src="https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg" alt="img">
-           <h4>Heaven</h4>
-            <div class="icon">
-               <img src="./images/loca.png" alt="icon">
-               <address class="kiy">7 KN 29 St, Kigali(Kiyovu)</address>
-            </div>
-        </div>
-      
-      
-         <div class="rectangle">
-          <img src="https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg" alt="img">
-          <h4>Heaven</h4>
-          <div class="icon">
-              <img src="./images/loca.png" alt="icon">
-              <address class="kiy">7 KN 29 St, Kigali(Kiyovu)</address>
-          </div>
-         </div>
-
-         <div class="rectangle">
-             <img src="https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg" alt="img">
-             <h4>Heaven</h4>
-             <div class="icon">
-                 <img src="./images/loca.png" alt="icon">
-                 <address class="kiy">7 KN 29 St, Kigali(Kiyovu)</address>
-             </div>
-         </div>
-         <div class="rectangle">
-             <img src="https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg" alt="img">
-             <h4>Heaven</h4>
-             <div class="icon">
-                 <img src="./images/loca.png" alt="icon">
-                 <address class="kiy">7 KN 29 St, Kigali(Kiyovu)</address>
-             </div>
-         </div>
-         <div class="rectangle">
-             <img src="https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg" alt="img">
-             <h4>Heaven</h4>
-             <div class="icon">
-                 <img src="./images/loca.png" alt="icon">
-                 <address class="kiy">7 KN 29 St, Kigali(Kiyovu)</address>
-             </div>
-         </div>
-         <div class="rectangle">
-             <img src="https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg" alt="img">
-             <h4>Heaven</h4>
-             <div class="icon">
-                 <img src="./images/loca.png" alt="icon">
-                 <address class="kiy">7 KN 29 St, Kigali(Kiyovu)</address>
-             </div>
-         </div>
-         <div class="rectangle">
-             <img src="https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg" alt="img">
-             <h4>Heaven</h4>
-             <div class="icon">
-                 <img src="./images/loca.png" alt="icon">
-                 <address class="kiy">7 KN 29 St, Kigali(Kiyovu)</address>
-             </div>
-         </div>
-         <div class="rectangle">
-             <img src="https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg" alt="img">
-             <h4>Heaven</h4>
-             <div class="icon">
-                 <img src="./images/loca.png" alt="icon">
-                 <address class="kiy">7 KN 29 St, Kigali(Kiyovu)</address>
-             </div>
-         </div>
-     </div>
-       
-     <div class="footer">
-         <ul class="foot">
-           <div>
+    <div class="footer">
+        <ul class="foot">
+        <div>
              <a href="index.html"> <img src="./icons/icons8-home-32.png" alt="icon"></a>
               <li><a href="index.html">Home</a></li>
            </div>
@@ -133,5 +54,28 @@
      </div>
       
  </div> 
+<script src="./scripts/hot.js"></script>
+ <script>
+ const parent = document.getElementById("parent");
+let domTree = "";
+hotels.map((item)=>{
+    domTree +=`
+    <div class="rectangle">
+        <img src="${item.image}" alt="img">
+        <h4>${item.name}</h4>
+        <div class="icon">
+            <img src="./images/loca.png" alt="icon">
+            <address class="kiy">${item.location}( ${item.address} )</address>
+        </div>
+    </div>
+    `;
+});
+parent.innerHTML = domTree;
+let c=document.getElementsByClassName("rectangle");
+ c.addEventlistener("click",()=>{
+  
+ });
+
+    </script>
  </body>
 </html>

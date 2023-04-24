@@ -39,16 +39,19 @@ input{
 
 .footer{
     background-color: #F29410;
-    height:75px ;
+    /* height:75px ; */
     color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 .foot{
     display: flex;
-    float: left;
+    /* float: left; */
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    gap: 4rem;
+    /* gap: 4rem; */
     /* padding: 20px; */
     padding-top: 20px;
     padding-left: 20px;

@@ -1,4 +1,4 @@
-let restaurants =[
+let hotels =[
     {
         name:"heaven",
         image:"https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg",
@@ -101,9 +101,3 @@ let restaurants =[
     }
   
 ]
-
-// document.getElementById("container").innerHTML = restaurants.map(getresto);
-
-// function getresto(item) {
-//   return [item.name,item.image,item,address];
-// }

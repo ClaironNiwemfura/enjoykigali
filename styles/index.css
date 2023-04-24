@@ -2,6 +2,7 @@
     margin: 0;
     box-sizing: border-box;
     /* padding: 0; */
+   
     
 }
 
@@ -12,6 +13,7 @@
     color: white;
     height: 50px;
     padding:10px;
+    width: 100%;
     /* padding-left: 10px; */
 }
 
@@ -55,7 +57,7 @@ input{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);  
 }
 .bodj{
-    padding:15px ;
+    padding:20px ;
 
 }
 img{
@@ -85,6 +87,9 @@ img{
     background-color: #F29410;
     height:80px ;
     color: white;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
 }
 .foot{
     display: flex;
@@ -108,4 +113,25 @@ img{
 }
 .bo{
     padding: 10px;
+}
+@media screen and (max-width:438px) {
+    .accordion{
+        margin-left: 20px;
+        font-size: 15px;
+        
+    }
+    .bodj{
+        font-size: 20px;
+    
+    }
+    .mn{
+        margin: 10px;
+        font-size: 18px;
+        height: 25px;
+    }
+    .heavn h4{
+        font-size: 25px;
+        
+    }
+    
 }
