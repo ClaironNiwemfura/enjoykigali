@@ -19,7 +19,7 @@
       <div class="head">
          <h3>Beautiful places</h3>
       </div>
-      <div class="parent">
+      <div class="parent" id="parent">
         <div class="rectangle">
           <img src="./images/p1.jpg" alt="img">
           <h4>lake kivu</h4>
@@ -29,84 +29,6 @@
            </div>
        </div>
     
-     
-         <div class="rectangle">
-           <img src="./images/p1.jpg" alt="img">
-           <h4>lake kivu</h4>
-            <div class="icon">
-               <img src="./images/loca.png" alt="icon">
-               <p class="kiy">Gisenyi</p>
-            </div>
-        </div>
-      
-      
-         <div class="rectangle">
-           <img src="./images/p1.jpg" alt="img">
-           <h4>lake kivu</h64>
-            <div class="icon">
-               <img src="./images/loca.png" alt="icon">
-               <p class="kiy">Gisenyi</p>
-            </div>
-        </div>
-      
-      
-         <div class="rectangle">
-          <img src="./images/p1.jpg" alt="img">
-          <h4>lake kivu</h4>
-          <div class="icon">
-              <img src="./images/loca.png" alt="icon">
-              <p class="kiy">Gisenyi</p>
-          </div>
-         </div>
-
-         <div class="rectangle">
-             <img src="./images/p1.jpg" alt="img">
-             <h4>lake Kivu</h4>
-             <div class="icon">
-                 <img src="./images/loca.png" alt="icon">
-                 <p class="kiy">Gisenyi</p>
-             </div>
-         </div>
-         <div class="rectangle">
-             <img src="./images/p1.jpg" alt="img">
-             <h4>lake kivu</h4>
-             <div class="icon">
-                 <img src="./images/loca.png" alt="icon">
-                 <p class="kiy">lake kivu</p>
-             </div>
-         </div>
-         <div class="rectangle">
-             <img src="./images/p1.jpg" alt="img">
-             <h4>lake kivu</h4>
-             <div class="icon">
-                 <img src="./images/loca.png" alt="icon">
-                 <p class="kiy">Gisenyi</p>
-             </div>
-         </div>
-         <div class="rectangle">
-             <img src="./images/p1.jpg" alt="img">
-             <h4>lake kivu</h4>
-             <div class="icon">
-                 <img src="./images/loca.png" alt="icon">
-                 <p class="kiy">Gisenyi</p>
-             </div>
-         </div>
-         <div class="rectangle">
-             <img src="./images/p1.jpg" alt="img">
-             <h4>lake kivu</h4>
-             <div class="icon">
-                 <img src="./images/loca.png" alt="icon">
-                 <p class="kiy">Gisenyi</p>
-             </div>
-         </div>
-         <div class="rectangle">
-             <img src="./images/p1.jpg" alt="img">
-             <h4>lake kivu</h4>
-             <div class="icon">
-                 <img src="./images/loca.png" alt="icon">
-                 <p class="kiy">Gisenyi</p>
-             </div>
-         </div>
      </div>
        
      <div class="footer">
@@ -131,6 +53,25 @@
 
      </div>
       
- </div> 
+ 
+ <script src="./scripts/others.js"></script>
+ <script>
+    const parent = document.getElementById("parent");
+    console.log(others);
+    let domTree = "";
+    others.map((item)=>{
+        domTree +=`
+        <div class="rectangle">
+          <img src="${item.image}" alt="img">
+          <h4>${item.name}</h4>
+           <div class="icon">
+              <img src="./images/loca.png" alt="icon">
+              <address class="kiy">${item.location}( ${item.address} )</address>
+           </div>
+       </div>
+        `;
+    });
+    parent.innerHTML=domTree;
+</script>   
  </body>
 </html>

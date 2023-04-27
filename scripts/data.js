@@ -3,9 +3,18 @@ let restaurants =[
         name:"heaven",
         image:"https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg",
         address:"kiyovu",
+        tel:"07889",
+        descr:"dxdfn nnjn",
+        gallery:[
+            "https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg",
+            "https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg",
+            "https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg"
+        ],
         location:"7 KN 29 St, Kigali",
-        menu:[
-            {
+        id:1,
+        menu:{
+            food:[
+                {
                 item:"pizza",
                 price:"8000rwf"
             },
@@ -17,87 +26,86 @@ let restaurants =[
                 item:"chicken fries",
                 price:"7000rwf"
             }
-        ]
+            ],
+            drinks:[
+                {
+                    item:"Milkshake",
+                    price:"3000Rwf"
+                }
+            ]
+        }
     },
     {
-        name:"pilipili",
-        image:"https://res.cloudinary.com/drof5meln/image/upload/v1682081824/poivrenoir/pilipili/Pili-Pili-Bistro-Lounge-Bar-Pool-Kigali-36_nwll41.jpg",
-        address:"kibagabaga",
-        location:"12 KG 303 St,",
-        menu:[
-            {
+        name:"heaven",
+        image:"https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg",
+        address:"kiyovu",
+        tel:"07889",
+        descr:"dxdfn nnjn",
+        gallery:[
+            "https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg",
+            "https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg",
+            "https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg"
+        ],
+        location:"7 KN 29 St, Kigali",
+        id:2,
+        menu:{
+            food:[
+                {
                 item:"pizza",
-                price:"4000rwf"
+                price:"8000rwf"
             },
             {
-                item:"pizza",
-                price:"2000rwf"
+                item:"burger",
+                price:"5000rwf"
             },
             {
-                item:"pizza",
-                price:"2000rwf"
+                item:"chicken fries",
+                price:"7000rwf"
             }
-        ]
+            ],
+            drinks:[
+                {
+                    item:"Milkshake",
+                    price:"3000Rwf"
+                }
+            ]
+        }
     },
     {
-        name:"poivre-noir",
-        image:"https://res.cloudinary.com/drof5meln/image/upload/v1682081103/poivrenoir/poivre-noir-kigali_zetqsx.jpg",
-        address:" KG 670 St, Kigali",
-        location:"kimihurura",
-        menu:[
-            {
+        name:"heaven",
+        image:"https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg",
+        address:"kiyovu",
+        tel:"07889",
+        descr:"dxdfn nnjn",
+        gallery:[
+            "https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg",
+            "https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg",
+            "https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg"
+        ],
+        location:"7 KN 29 St, Kigali",
+        id:3,
+        menu:{
+            food:[
+                {
                 item:"pizza",
-                price:"4000rwf"
+                price:"8000rwf"
             },
             {
-                item:"pizza",
-                price:"2000rwf"
+                item:"burger",
+                price:"5000rwf"
             },
             {
-                item:"pizza",
-                price:"2000rwf"
+                item:"chicken fries",
+                price:"7000rwf"
             }
-        ]
-    },
-      {
-        name:"poivre-noir",
-        image:"https://res.cloudinary.com/drof5meln/image/upload/v1682081103/poivrenoir/poivre-noir-kigali_zetqsx.jpg",
-        address:" KG 670 St, Kigali",
-        location:"kimihurura",
-        menu:[
-            {
-                item:"pizza",
-                price:"4000rwf"
-            },
-            {
-                item:"pizza",
-                price:"2000rwf"
-            },
-            {
-                item:"pizza",
-                price:"2000rwf"
-            }
-        ]
-    }, 
-     {
-        name:"poivre-noir",
-        image:"https://res.cloudinary.com/drof5meln/image/upload/v1682081103/poivrenoir/poivre-noir-kigali_zetqsx.jpg",
-        address:" KG 670 St, Kigali",
-        location:"kimihurura",
-        menu:[
-            {
-                item:"pizza",
-                price:"4000rwf"
-            },
-            {
-                item:"pizza",
-                price:"2000rwf"
-            },
-            {
-                item:"pizza",
-                price:"2000rwf"
-            }
-        ]
+            ],
+            drinks:[
+                {
+                    item:"Milkshake",
+                    price:"3000Rwf"
+                }
+            ]
+        }
     }
   
 ]
