@@ -8,101 +8,92 @@
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-    <div id="Home">
-        <div class="header">
-            <h2 class="logo">Enjoy Kigali</h2>
-            <h4 class="contct"><a href="cont.html">contact us</a></h4>
-
-        </div>
-      <div class="bo">
-        <input type="search" placeholder="search...">
-        <div id="accordion">
-          <span>
-           <button class="accordion">Nyarutarama</button>
-           <button class="accordion">Gishushu</button>
-           <button class="accordion">kacyiru</button>
-          </span>
-          <span>
-           <button class="accordion">kimihurura</button>
-           <button class="accordion">Kimironko</button>
-           <button class="accordion">Remera</button>
-          </span>
-        </div>
-
-        <div id="body">
-            <h4 class="bodj">Top rated</h4>
-            <div class="container">
-                <img src="./images/heavenrda.jpg " alt="img">
-              <div class="locat">
-                 <p class="heavn">
-                  <h4>Heaven</h4>
-                  <img src="./images/loca.png " alt="icon">
-                  7 KN 29 St, Kigali(Kiyovu)
-                 </p>
-              </div>
-              <a href="heaven.html"><button class="mn">menu</button></a>
-            </div>
-            <br>
-            <div class="container" id="container">
-                <img src="./images/heavenrda.jpg" alt="img">
-              <div class="locat">
-                 <p class="heavn">
-                  <h4>Heaven</h4>
-                  <img src="./images/loca.png" alt="icon">
-                    7 KN 29 St, Kigali(kiyovu)
-                 </p>
-              </div>
-              <a href="heaven.html"><button class="mn">menu</button></a>
-            </div>
-            <br>
-            <div class="container">
-                <img src="./images/heavenrda.jpg" alt="img">
-              <div class="locat">
-                 <p class="heavn">
-                  <h4>Heaven</h4>
-                  <img src="./images/loca.png" alt="icon">
-                    7 KN 29 St, Kigali(kiyovu)
-                 </p>
-              </div>
-             <a href="heaven.html"><button class="mn">menu</button></a>
-            </div>
-            <br>
-            <div class="container">
-                <img src="./images/heavenrda.jpg" alt="img">
-              <div class="locat">
-                 <p class="heavn">
-                  <h4>Heaven</h4>
-                  <img src="./images/loca.png" alt="icon">
-                    7 KN 29 St, Kigali(kiyovu)
-                 </p>
-              </div>
-              <a href="heaven.html"><button class="mn">menu</button></a>
-            </div>
-        </div>
-      </div>
-        <div class="footer">
-          <ul class="foot">
-            <div class="icn">
-               <a href="index.html"><img src="./icons/icons8-home-32.png" alt="icon"></a> 
-               <li><a href="index.html">Home</a></li>
-            </div >
-            <div class="icn"> 
-              <a href="hotel.html"> <img src="./icons/icons8-hotel-32.png" alt="icon"></a>
-              <li><a href="hotel.html">Hotels</a></li>
-            </div>
-            <div class="icn">
-             <a href="restau.html">
-               <img src="./icons/restaurant-regular-24.png" alt="icon"></a>
-              <li><a href="restau.html">Restaurant</a></li>
-            </div>
-            <div class="icn">
-            <a href="others.html"><img src="./icons/icons8-more-30.png" alt="icon"></a>
-              <li><a href="others.html">Others</a></li>
-            </div>
-          </ul>
-
-      </div>
+<div id="Home">
+  <div class="header">
+    <h2 class="logo">Enjoy Kigali</h2>
+    <img src="./images/search.png" alt="icon"id="srch">
+    <h4 class="contct"><a href="cont.html">contact us</a></h4>
+ </div>
+ <div class="bo">
+    <input type="search" placeholder="search..." id="search">
+    <div id="accordion">
+      <span>
+        <button class="accordion">Nyarutarama</button>
+        <button class="accordion">Gishushu</button>
+        <button class="accordion">kacyiru</button>
+      </span>
+      <span>
+        <button class="accordion">kimihurura</button>
+        <button class="accordion">Kimironko</button>
+        <button class="accordion">Remera</button>
+      </span>
     </div>
-    <script src="./scripts/data.js"></script>
+  </div>
+  <h4 class="bodj">Top rated</h4>
+
+  <div id="body">
+    <div class="container" id="cont">
+      <img src="./images/heavenrda.jpg " alt="img">
+      <div class="locat">
+        <p class="heavn">
+        <h4>Heaven</h4>
+        <img src="./images/loca.png " alt="icon">
+        7 KN 29 St, Kigali(Kiyovu)
+        </p>
+      </div>
+      <a href="heaven.html"><button class="mn">menu</button></a>
+    </div>
+    <br>
+  </div>  
+  <div class="footer">
+    <ul class="foot">
+      <div class="icn">
+          <a href="index.html"><img src="./icons/icons8-home-32.png" alt="icon"></a> 
+          <li><a href="index.html">Home</a></li>
+      </div >
+      <div class="icn"> 
+        <a href="hotel.html"> <img src="./icons/icons8-hotel-32.png" alt="icon"></a>
+        <li><a href="hotel.html">Hotels</a></li>
+      </div>
+      <div class="icn">
+        <a href="restau.html">
+          <img src="./icons/restaurant-regular-24.png" alt="icon"></a>
+        <li><a href="restau.html">Restaurant</a></li>
+      </div>
+      <div class="icn">
+      <a href="others.html"><img src="./icons/icons8-more-30.png" alt="icon"></a>
+        <li><a href="others.html">Others</a></li>
+      </div>
+    </ul>
+
+  </div>
+  </div>
+    <script src="./scripts/index.js"></script>
+    <script>
+      const parent = document.getElementById("body");
+      console.log(rated);
+      let domTree = "";
+      rated.map((item)=>{
+          domTree +=`
+          <div class="container">
+            <a href="./heaven.html?id=${item.id}"><img src="${item.image}" alt="img"></a>
+            <div class="locat">
+                <p class="heavn">
+                <a href="./heaven.html?id=${item.id}"><h4>${item.name}</h4></a>
+             <div class="icon">
+                <img src="./images/loca.png" alt="icon"  <address class="kiy">${item.location}( ${item.address} )</address>
+               
+             </div>
+             <a href="./heaven.html?id=${item.id}"><button class="mn">menu</button></a>
+         </div>
+         
+                
+              
+              
+            </div>
+          `;
+      });
+      body.innerHTML=domTree;
+  </script>   
 </body>
 </html>

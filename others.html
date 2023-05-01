@@ -20,13 +20,7 @@
          <h3>Beautiful places</h3>
       </div>
       <div class="parent" id="parent">
-        <div class="rectangle">
-          <img src="./images/p1.jpg" alt="img">
-          <h4>lake kivu</h4>
-           <div class="icon">
-              <img src="./images/loca.png" alt="icon">
-              <p class="kiy">Gisenyi</p>
-           </div>
+        
        </div>
     
      </div>
@@ -62,8 +56,8 @@
     others.map((item)=>{
         domTree +=`
         <div class="rectangle">
-          <img src="${item.image}" alt="img">
-          <h4>${item.name}</h4>
+          <a href="./heaven.html?id=${item.id}"><img src="${item.image}" alt="img"></a>
+          <a href="./heaven.html?id=${item.id}"><h4>${item.name}</h4></a>
            <div class="icon">
               <img src="./images/loca.png" alt="icon">
               <address class="kiy">${item.location}( ${item.address} )</address>

@@ -54,8 +54,9 @@
    flex-wrap: wrap;
     
 }
-.rectangle h4{
+.rectangle h4 {
     padding: 7px;
+    text-decoration: none;
 }
 .parent{
     display:flex;

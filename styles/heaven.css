@@ -8,30 +8,44 @@
     width:100%;
 }
 .image img{
-    width: 100%;
-    height: 50vh;
-    padding-left: 0px;
+    width: 90%;
+    height: 70vh;
+    padding-left: 1.5rem;
     
 }
 .para{
-    line-height: 20px;
-    padding-left:5rem;
+    /* line-height: 20px; */
+    /* padding-left:5rem; */
     padding-top:1rem;
+    margin-left: 20px;
+}
+.fd, .mn{
+    margin-left: 20px;
+    line-height: 30px; 
 }
 .para h4{
     padding-bottom:0.5rem; 
+  
+
+}
+.dr{
+    margin-left: 20px;
 }
 .Drinks{
     line-height: 30px;
+    margin-left: 20px;
 }
 .menu{
     line-height: 30px;  
+    margin-left: 20px;
 }
 .footer{
     background-color: #F29410;
     height:80px ;
     color: white;
- 
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
 }
 .foot{
     display: flex;
@@ -42,10 +56,21 @@
     /* gap: 2rem; */
    padding: 0.5rem;
    margin: 0px;
+   
 }
 
 .foot li a{
     text-decoration: none;
     color: white;
 
+}
+
+
+@media screen and (max-width:440px)  {
+    .image img{
+        width: 100%;
+        height: 50vh;
+        padding-left: 0px;
+        
+    }
 }

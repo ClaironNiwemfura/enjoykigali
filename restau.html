@@ -59,10 +59,10 @@
     restaurants.map((item)=>{
         domTree +=`
         <div class="rectangle">
-          <img src="${item.image}" alt="img">
-          <h4>${item.name}</h4>
+          <a href="./heaven.html?id=${item.id}"><img src="${item.image}" alt="img"></a>
+          <a href="./heaven.html?id=${item.id}"> <h4>${item.name}</h4></a>
            <div class="icon">
-              <a href="./heaven.html?id=${item.id}"> <img src="./images/loca.png" alt="icon"></a>
+             <img src="./images/loca.png" alt="icon">
               <address class="kiy">${item.location}( ${item.address} )</address>
            </div>
        </div>

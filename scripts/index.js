@@ -1,4 +1,4 @@
-let restaurants =[
+let rated =[
     {
         name:"heaven",
         image:"https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg",
@@ -72,11 +72,11 @@ let restaurants =[
         }
     },
     {
-        name:"Pilipili",
+        name:"pilipili",
         image:"https://res.cloudinary.com/drof5meln/image/upload/v1682081824/poivrenoir/pilipili/Pili-Pili-Bistro-Lounge-Bar-Pool-Kigali-36_nwll41.jpg",
         address:"kiyovu",
-        tel:"078899999",
-        descr:"We have good food with a special view ",
+        tel:"07889",
+        descr:"dxdfn nnjn",
         gallery:[
             "https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg",
             "https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg",
@@ -223,3 +223,9 @@ let restaurants =[
 // function getresto(item) {
 //   return [item.name,item.image,item,address];
 // }
+
+let search = document.getElementById("search");
+let srch = document.getElementById("srch")
+srch.addEventListener("click",()=>{
+    search.style.display ="block";
+})

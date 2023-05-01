@@ -3,6 +3,7 @@ let hotels =[
         name:"Ndaru",
         image:"https://res.cloudinary.com/drof5meln/image/upload/v1682082483/poivrenoir/pilipili/ndaru/kuri_ndaru_luxury_suites_by_le_muguet_hari_piscine_abashaka_koga_nabo_bashyizwe_igorora-34d15_r5hi9e.jpg",
         address:"kiyovu",
+        id:1,
         location:"7 KN 29 St, Kigali",
         menu:[
             {
@@ -144,6 +145,7 @@ let hotels =[
             name:"The manor hotel",
             image:"https://res.cloudinary.com/drof5meln/image/upload/v1682499862/hotels/the%20manor/8MLKqzCr_400x400_ydtc6n.jpg",
             address:" KG 670 St, Kigali",
+            id:1,
             location:"kimihurura",
             menu:[
                 {
