@@ -1,10 +1,10 @@
 let restaurants =[
     {
-        name:"heaven",
+        name:"HEAVEN ",
         image:"https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg",
         address:"kiyovu",
-        tel:"07889",
-        descr:"dxdfn nnjn",
+        tel:"0788978999",
+        descr:"Heaven is a beautiful place with a good view and it has the most delicious food ",
         gallery:[
             "https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg",
             "https://res.cloudinary.com/drof5meln/image/upload/v1681932371/enjoyk/hvn2_dlvbkj.jpg",
