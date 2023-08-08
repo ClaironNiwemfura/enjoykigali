@@ -96,13 +96,11 @@
 .foot li a{
     text-decoration: none;
     color: white;
+    font-size: 14px ;
 }
 .foot img{
     width: 20px;
     height: 20px;
-}
-.foot li a{
-    font-size: 16px;
 }
 @media screen and (max-width:438px) {
     .rectangle{

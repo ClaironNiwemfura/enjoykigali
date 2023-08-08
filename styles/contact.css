@@ -8,16 +8,16 @@
     display: flex;
     justify-content: space-between;
     color: white;
-    height: 70px;
+    height: 50px;
     padding-top: 20px;
 }
 .logo{
     padding-left: 20px;
     font-style: italic;
-    font-size: 20px;
+    font-size: 16px;
 }
 .contct{
-    font-size: 20px;
+    font-size: 16px;
     padding-right: 20px;
 }
 .contct a{
@@ -39,7 +39,7 @@ input{
 
 .footer{
     background-color: #F29410;
-    /* height:75px ; */
+    height:50px ;
     color: white;
     position: fixed;
     bottom: 0px;
@@ -53,13 +53,16 @@ input{
     list-style: none;
     /* gap: 4rem; */
     /* padding: 20px; */
-    padding-top: 20px;
-    padding-left: 20px;
+    margin :7px;
 }
-
+.foot a img{
+    width: 20px;
+    height: 20px;
+}
 .foot li a{
     text-decoration: none;
     color: white;
+    font-size: 14px;
 
 }
 .para{

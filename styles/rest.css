@@ -14,7 +14,7 @@
 .logo{
     padding-left: 20px;
     font-style: italic;
-    font-size: 20px;
+    font-size: 16px;
 }
 .contct{
     font-size: 16px;
@@ -68,7 +68,7 @@
 }
 .footer{
     background-color: #F29410;
-    /* height:80px ; */
+    height:50px ;
     color: white;
     width: 100%;
     position: fixed;
@@ -82,14 +82,14 @@
     list-style: none;
     /* gap: 2rem; */
    /* padding: 0.5rem; */
-   margin:10px ;
+   margin:7px ;
 
 }
 
 .foot li a{
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
 
 }
 .footer a img{
